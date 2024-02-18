@@ -1,0 +1,172 @@
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-condensed");
+@import url("https://fonts.cdnfonts.com/css/playpen-sans");
+
+@font-face {
+  font-family: Playen;
+  src: url(fonts/PlayenSans-Black.ttf);
+}
+
+:root {
+  --Proxima: "Proxima Nova Condensed", sans-serif;
+  --ProximaExtra: "Proxima Nova Condensed", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--Proxima);
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.4;
+}
+img {
+  max-width: 1320px;
+  margin: 0 auto;
+  margin: 0 1.2rem;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+/* Header styling start */
+header {
+  height: 100vh;
+  background: grey;
+}
+/* Navbar styling start */
+.navbar {
+  background: #fff;
+  padding: 1.2rem;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+.logo span:first-of-type {
+  font-size: 26px;
+  line-height: 31.72px;
+  font-weight: 700;
+  font-family: Playen;
+}
+.logo span:last-of-type {
+  font-size: 26px;
+  line-height: 31.72px;
+  font-weight: 700;
+  font-family: Playen;
+  color: #ff3f62;
+}
+.navbar-nav {
+  padding: 1.2rem;
+}
+.navbar-nav a {
+  font-family: var(--Proxima);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.49px;
+  color: #a8a8a8;
+  letter-spacing: 2px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 1.2rem;
+  transition: all 0.5s ease;
+}
+.navbar-nav a:hover {
+  color: black;
+}
+.navbar-right {
+  padding: 1.2rem;
+}
+.navbar-right button {
+  border-radius: 20px;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  background: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.05px;
+  font-family: var(--Proxima);
+  transition: all 0.5s ease;
+}
+.navbar-right button:hover {
+  border: 1px solid #ff3f62;
+  color: #ff3f62;
+}
+/* End navbar styling */
+
+/* Banner styling start */
+.banner {
+  background: #fff;
+  padding: 1.2rem;
+}
+.banner-top {
+  display: flex;
+  margin-bottom: 65px;
+}
+.title {
+  padding: 1.2rem 0;
+}
+.title p {
+  font-family: var(--Proxima);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.92px;
+  color: #a8a8a8;
+  margin: 30px 0;
+}
+.title h1 {
+  font-family: Playen;
+  font-weight: 500;
+  font-size: 82px;
+  line-height: 82px;
+  color: #000;
+}
+.banner-shape {
+  display: flex;
+  padding: 1.2rem;
+  margin-top: 100px;
+}
+.shape {
+  position: relative;
+}
+.shape img {
+  width: 545px;
+  height: 123.5px;
+}
+.banner-button{
+  position: relative;
+}
+.banner-button button {
+  border-radius: 30px;
+  padding: 10px 25px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.36px;
+  transition: all 0.5s ease;
+  position: absolute;
+  right: 10px;
+}
+.banner-button button:hover {
+  background: #a8a8a8;
+  color: #000;
+}
+.banner-img img {
+  margin: 0;
+}
