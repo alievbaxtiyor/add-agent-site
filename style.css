@@ -105,6 +105,7 @@ header {
 .navbar-right button:hover {
   border: 1px solid #ff3f62;
   color: #ff3f62;
+  background: #a8a8a8;
 }
 /* End navbar styling */
 
@@ -115,6 +116,7 @@ header {
 }
 .banner-top {
   display: flex;
+  align-items: center;
   margin-bottom: 65px;
 }
 .title {
@@ -135,10 +137,9 @@ header {
   line-height: 82px;
   color: #000;
 }
-.banner-shape {
+.banner-top-right {
   display: flex;
   padding: 1.2rem;
-  margin-top: 100px;
 }
 .shape {
   position: relative;
@@ -147,7 +148,7 @@ header {
   width: 545px;
   height: 123.5px;
 }
-.banner-button{
+.banner-button {
   position: relative;
 }
 .banner-button button {
@@ -169,4 +170,23 @@ header {
 }
 .banner-img img {
   margin: 0;
+}
+.meta{
+  background: #ff3f62;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 800px){
+  .navbar-nav a{
+    display: block;
+    padding: .1rem 0;
+  }
+  .navbar-nav{
+    padding: 1.2rem 0;
+  }
+  .navbar-left{
+    display: block;
+  }
 }
